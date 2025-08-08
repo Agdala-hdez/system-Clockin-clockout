@@ -1,171 +1,185 @@
-🕒 Sistema Integral de Control de Asistencia y Gestión de Empleados (Clock In / Clock Out)
-🧩 Descripción del Proyecto
-Un sistema completo para rastrear la asistencia y gestionar empleados, diseñado para ayudar a las empresas a monitorear y controlar la puntualidad de su equipo de manera segura, eficiente y profesional.
+# 🕒 Sistema Integral de Control de Asistencia y Gestión de Empleados  
+> **Clock In / Clock Out System**
 
-Incluye módulos separados para administradores y empleados, proporcionando control total sobre asistencia, nómina, reportes, comunicación interna y gestión de incidencias.
+🎯 Una solución profesional y escalable para gestionar la asistencia, nómina y comunicación entre empleados y administradores.
 
-📦 Módulos Principales del Sistema
-🛠️ Panel de Administración (Plataforma Web)
-🔐 Accesible solo para administradores autorizados
+---
 
-⚙️ Configuración de la Empresa
-Personalización del nombre y logo.
+## 🚀 Características Principales
 
-Dirección fiscal, datos de contacto e información tributaria.
+- Panel de administración completo para la gestión de empleados, asistencia y nómina.
+- Portal de empleados con fichaje, historial y comunicación directa.
+- Apps de escritorio multiplataforma para fichaje rápido y seguro.
+- Informes, estadísticas y reportes automáticos.
+- Seguridad avanzada, backups y encriptación.
+- Escalable y adaptable para pequeñas, medianas y grandes empresas.
 
-Zona horaria y ubicación por defecto.
+---
 
-👥 Gestión de Empleados
-Agregar empleados manualmente o mediante enlace de invitación.
+## 📊 Panel de Administración
 
-Subida obligatoria de foto de perfil.
+🔐 Accesible solo para administradores autorizados.
 
-Asignación de tipo de contrato (por hora o por día).
+---
 
-Configuración de tarifa por hora o jornada.
+### ⚙️ Configuración de Empresa
+- Personalización del nombre y logo de la empresa.
+- Dirección, datos fiscales y contacto.
+- Zona horaria y ubicación por defecto.
 
-🕓 Control de Asistencia
-Vista en tiempo real de quién está “🟢 Registrado” o “🔴 Fuera”.
+---
 
-Historial completo de asistencia por empleado.
+### 👥 Gestión de Empleados
+- Agregar empleados manualmente o invitar por enlace.
+- Carga obligatoria de foto de perfil.
+- Asignación de tipo de contrato (por hora o por día).
+- Configuración de tarifa de pago por hora o por jornada.
 
-Edición manual de registros (por olvido de fichaje, por ejemplo).
+---
 
-Visualización de fotos o capturas subidas por los empleados.
+### 🕓 Control de Asistencia
+- Vista en tiempo real de empleados “🟢 Registrado” o “🔴 Fuera”.
+- Historial completo de asistencia por empleado.
+- Edición manual de fichajes por parte del admin.
+- Visualización de fotos o capturas enviadas por empleados.
 
-💵 Gestión de Nómina
-Periodos de pago configurables (cada 14 o 15 días).
+---
 
-Fecha y hora de corte personalizables.
+### 💵 Gestión de Nómina
+- Periodos de pago configurables (cada 14 o 15 días).
+- Fechas de corte personalizables.
+- Cálculo automático con base en horas trabajadas.
+- Generación de reportes en PDF o Excel.
 
-Cálculo automático según horas trabajadas y tarifa.
+---
 
-Generación de reportes en PDF o Excel.
+### 📈 Estadísticas y Reportes
+- Total de horas trabajadas por día, semana o quincena.
+- Empleados con más productividad, ausencias o irregularidades.
+- Reportes agrupados por departamento o rol.
 
-📊 Estadísticas y Reportes
-Total de horas trabajadas (diario, semanal, quincenal).
+---
 
-Identificación de empleados destacados o ausentes.
+### 💬 Mensajería Interna
+- Envío de mensajes individuales o masivos.
+- Archivos adjuntos: fotos, capturas, documentos.
+- Notificaciones en tiempo real para nuevos mensajes.
 
-Agrupación por departamento o rol.
+---
 
-💬 Mensajería Interna
-Envío de mensajes a empleados específicos o a todo el equipo.
+## 👤 Portal del Empleado
 
-Posibilidad de adjuntar archivos (imágenes, documentos, capturas).
+🧑‍💼 Cada empleado accede a un panel personalizado.
 
-Notificaciones en tiempo real.
+---
 
-👤 Portal del Empleado (Web + App)
-Cada empleado accede a un panel personalizado con herramientas clave:
+### 🧾 Gestión de Perfil
+- Información personal: nombre, correo, rol, departamento.
+- Foto de perfil obligatoria.
+- Datos de contacto configurables.
 
-🧾 Gestión de Perfil
-Datos personales (nombre, email, rol, departamento).
+---
 
-Foto de perfil obligatoria.
+### 🕰️ Fichaje (Clock In / Clock Out)
+- Botones para iniciar y finalizar turnos.
+- Registro automático con timestamp y geolocalización opcional.
+- Opción de dejar nota con cada registro.
 
-Configuración de contacto.
+---
 
-🕰️ Reloj de Entrada/Salida
-Botones claros para comenzar o finalizar turno.
+### 📂 Historial de Asistencia
+- Consulta de todos los registros personales.
+- Total de horas trabajadas en el periodo actual.
+- Indicador en tiempo real del estado actual.
 
-Registro de hora con geolocalización opcional.
+---
 
-Opción para agregar notas por registro.
+### 📬 Comunicación con Administración
+- Envío de mensajes directos.
+- Subida de imágenes, capturas o documentos justificativos.
+- Recepción de notificaciones desde el panel de admin.
 
-📈 Historial y Estadísticas
-Consulta de registros de asistencia.
+---
 
-Horas trabajadas en el período actual.
+## 💻 Aplicaciones de Escritorio
 
-Indicador de estado actual: “🟢 En Turno” o “🔴 Fuera de Turno”.
+Disponibles para **Windows**, **macOS** y **Linux**.
 
-Notificaciones de pagos y resúmenes.
+- Interfaz ligera y de rápida carga.
+- Inicio de sesión seguro.
+- Fichaje rápido (Clock In / Clock Out).
+- Sincronización con servidor vía REST API o WebSocket.
+- Modo offline con sincronización posterior.
+- Fichaje automático al iniciar el sistema (opcional).
 
-📨 Comunicación con Admin
-Envío de mensajes directos al administrador.
+---
 
-Subida de capturas o fotos justificativas.
+## 🧪 Tecnologías Sugeridas
 
-Recepción de notificaciones desde administración.
+### 🔙 Back-End
+- Lenguajes: `Node.js`, `Python (Django / Flask)`, `Laravel (PHP)`
+- Base de datos: `PostgreSQL` o `MySQL`
+- Autenticación: `JWT` u `OAuth2`
+- API: `RESTful` o `GraphQL`
 
-💻 Aplicaciones de Escritorio (Windows / Linux / macOS)
-Interfaz ligera y fácil de usar.
+### 🌐 Front-End Web
+- Frameworks: `React.js` o `Vue.js`
+- Librerías UI: `TailwindCSS`, `Material UI`
 
-Funcionalidad principal: fichaje rápido con inicio seguro.
+### 🖥️ Aplicación de Escritorio
+- Plataforma: `Electron.js`
+- Sincronización en tiempo real
+- Soporte offline
 
-Sincronización mediante API REST o WebSocket.
+---
 
-Modo offline con sincronización posterior.
+## 🔐 Seguridad y Logs
 
-Opcional: Fichaje automático al iniciar el sistema.
+- Autenticación de dos factores (2FA) opcional.
+- Registro completo de actividades por usuario.
+- Backups automáticos de la base de datos.
+- Encriptación de datos sensibles (AES / SSL / bcrypt).
 
-🧪 Tecnologías Sugeridas
-🔙 Back-End
-Lenguaje: Node.js, Python (Django/Flask) o Laravel (PHP)
+---
 
-Base de Datos: PostgreSQL o MySQL
+## 🌱 Escalabilidad y Módulos Futuro
 
-Autenticación: JWT o OAuth2
+- 📍 Geofencing por GPS.
+- 📎 Integración con sistemas externos de nómina.
+- 🧠 Verificación por reconocimiento facial.
+- 🏢 Soporte multiempresa bajo una sola cuenta admin.
+- 🌴 Gestión de vacaciones, licencias y ausencias.
+- 📬 Notificaciones por correo, SMS o WhatsApp.
 
-APIs: RESTful o GraphQL
+---
 
-🌐 Front-End (Web)
-Framework: React.js o Vue.js
+## 🎨 Diseño Profesional
 
-UI Libraries: TailwindCSS, Material UI
+- 🎨 **Colores**:
+  - Primario: `#2563EB` (azul)
+  - Secundario: `#059669` (verde esmeralda)
+  - Acento: `#EA580C` (naranja)
 
-🖥️ App de Escritorio
-Plataforma: Electron.js
+- 💡 **Interfaz**:
+  - Moderna, limpia y con animaciones sutiles.
+  - Diseño responsivo (desktop, tablet, móvil).
+  - Navegación intuitiva con control de acceso por rol.
+  - Indicadores visuales en tiempo real.
 
-Soporte para sincronización en tiempo real y modo offline
+---
 
-🔐 Seguridad y Registros
-Autenticación en dos pasos (opcional)
+## ✅ Beneficios Clave
 
-Registros completos de actividad por usuario
+- Mejora la puntualidad y responsabilidad de los empleados.
+- Reduce el fraude de asistencia y errores manuales.
+- Automatiza y simplifica el proceso de nómina.
+- Fomenta una comunicación clara y directa.
+- Adaptable a cualquier tamaño de empresa.
 
-Backups automáticos de la base de datos
+---
 
-Encriptación de datos sensibles
+## 🧠 ¿Deseas más?
 
-🌱 Escalabilidad y Módulos Opcionales (Futuras Mejoras)
-📍 Geofencing por GPS para fichaje por ubicación
+¿Quieres una versión bilingüe (🇪🇸/🇺🇸), wireframes, o documentación técnica?
 
-🔗 Integración con sistemas externos de nómina
-
-🧠 Reconocimiento facial para verificación de fichaje
-
-🏢 Soporte multiempresa bajo una cuenta de administrador
-
-🌴 Gestión de vacaciones, licencias y ausencias
-
-📬 Notificaciones por email, SMS o WhatsApp
-
-✨ Beneficios Clave
-✅ Mejora la puntualidad y responsabilidad de los empleados
-✅ Reduce fraudes de asistencia y errores manuales
-✅ Automatiza la nómina con datos precisos y transparentes
-✅ Fortalece la comunicación entre el equipo y administración
-✅ Escalable para pequeñas, medianas o grandes empresas
-
-🎨 Diseño Profesional
-Paleta de colores:
-
-Primario: #2563EB (azul)
-
-Secundario: #059669 (esmeralda)
-
-Acento: #EA580C (naranja)
-
-Estados: éxito, advertencia, error
-
-Interfaz moderna y limpia con animaciones suaves
-
-Diseño responsivo para escritorio, tablet y móvil
-
-Navegación intuitiva con control de acceso por rol
-
-Sistema de tarjetas con tipografía clara y espaciado adecuado
-
-Indicadores de estado en tiempo real y notificaciones visuales
+📩 ¡Contáctame o abre un issue en este repositorio!
